@@ -1,0 +1,35 @@
+.rectangles-group {
+  font-family: Times, serif;
+  text-align: center;
+  width: 24rem;
+}
+
+.rectangle {
+  border: 0.1rem solid;
+  padding: 3rem;
+  padding-top: calc(3rem - 1em);
+  cursor: pointer;
+}
+
+.title {
+  font-size: 0.9em;
+}
+
+.rectangle .top {
+  position: relative;
+  top: -2em;
+}
+
+.div1 {
+  border-color: #a9bfdd;
+  background-color: #c3d7f2;
+}
+
+.div2, .div3 {
+  border-color: #c68456;
+  background-color: #ff8f31;
+}
+
+.div3 {
+  padding: calc(3rem - 1em);
+}

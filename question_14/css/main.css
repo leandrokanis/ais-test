@@ -1,0 +1,46 @@
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.column {
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid black;
+  position: relative;
+}
+
+/* just for better visualization */
+.column {
+  background: #EEE;
+  text-align: center;
+  font-size: 1rem;
+  height: 3rem;
+  margin-bottom: .75rem;
+}
+
+@media (max-width: 359px){
+  .column {
+    width: 100%;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 719px){
+  .column {
+    width: 50%;
+    min-height: 3rem;
+  }
+}
+
+@media (min-width: 720px){
+  .column {
+    width: 25%;
+  }
+}
